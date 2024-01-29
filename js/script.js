@@ -26,7 +26,7 @@ function progress(callback){
         if(marks>=80 && marks<=100){
             callback()
         }else if(marks>100 || marks<0){
-            console.log('Invalid marks.. contact with your cr.')
+            console.log('Invalid marks.. contact with CR.')
         }else{
             console.log('You could not get enoght marks to get certificate.')
         }
